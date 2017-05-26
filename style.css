@@ -1,0 +1,154 @@
+/* HEADER */
+.header {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+
+.img-header {
+     max-height: 300px;
+}
+
+.kenan-kel {
+    padding: 20px 0px 0px 0px;
+}
+
+/* BASE BUTTON DESIGN */
+button {
+	border: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: inherit;
+    text-transform: uppercase;
+	color: #fff;
+	cursor: pointer;
+	padding: 25px 40px;
+	margin: 50px 30px;
+	letter-spacing: 2px;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+}
+
+/* BUTTON DISAPPEAR */
+.btn-gone {
+    visibility: hidden;
+}
+
+/* START BUTTON */
+.btn-start {
+    background: #FEE345;
+	box-shadow: 0 6px #DDC82A; 
+}
+
+.btn-start:hover {
+    box-shadow: 0 4px #C7BE40;
+	top: 2px;
+}
+
+.btn-start:active {
+	box-shadow: 0 0 #C7BE40;
+	top: 6px;
+}
+
+/* BURGER ELEMENTS */
+.bun {
+    padding-top: 50px;
+    text-align: center;
+}
+
+/* CHOICE BAR */
+.choice-bar {
+    visibility: visible;
+    background-image: url(Assets/gingham.jpg);
+    background-size: 280px 280px;
+    background-repeat: repeat;
+    text-align: center;
+}
+
+.choice-bar-inactive {
+    visibility: hidden;
+}
+
+/* TOMATO BUTTON */
+.btn-tomato {
+    background: #B30000;
+	box-shadow: 0 6px #8B0601; 
+}
+
+.btn-tomato:hover {
+    box-shadow: 0 4px #5F0601;
+	top: 2px;
+}
+
+.btn-tomato:active {
+	box-shadow: 0 0 #5F0601;
+	top: 6px;
+}
+
+/* LETTUCE BUTTON */
+.btn-lettuce {
+    background: #009039;
+	box-shadow: 0 6px #0C7030; 
+}
+
+.btn-lettuce:hover {
+    box-shadow: 0 4px #0C4730;
+	top: 2px;
+}
+
+.btn-lettuce:active {
+	box-shadow: 0 0 #0C4730;
+	top: 6px;
+}
+
+/* CHEESE BUTTON */
+.btn-cheese {
+    background: #FEE345;
+	box-shadow: 0 6px #DDC82A; 
+}
+
+.btn-cheese:hover {
+    box-shadow: 0 4px #C7BE40;
+	top: 2px;
+}
+
+.btn-cheese:active {
+    box-shadow: 0 4px #C7BE40;
+	top: 6px;
+}
+
+/* BEEF BUTTON */
+.btn-beef {
+    background: #863A23;
+	box-shadow: 0 6px #673A1C; 
+}
+
+.btn-beef:hover {
+    box-shadow: 0 4px #46311C;
+	top: 2px;
+}
+
+.btn-beef:active {
+    box-shadow: 0 4px #46311C;
+	top: 6px;
+}
+
+/* PICKLES BUTTON */
+.btn-pickles {
+    background: #98A757;
+	box-shadow: 0 6px #859452; 
+}
+
+.btn-pickles:hover {
+    box-shadow: 0 4px #707F52;
+	top: 2px;
+}
+
+.btn-pickles:active {
+    box-shadow: 0 4px #707F52;
+	top: 6px;
+}
